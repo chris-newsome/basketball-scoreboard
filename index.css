@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Scoreboard";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3 {
+    color: #EEE;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+}
+
+.center-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-new-game {
+    border: 2px solid #F94F6D;
+    background: #1B244A;
+    color: #F94F6D;
+    font-family: Scoreboard, sans-serif;
+    font-size: 22px;
+    padding: 18px 36px;
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-new-game:hover {
+    background: #F94F6D;
+    color: #1B244A;
+}
+
+.score {
+    background-color: #080001;
+    font-family: Scoreboard;
+    width: 150px;
+    height: 120px;
+    flex-shrink: 0;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin-top: 20px;
+    background: transparent;
+    flex-shrink: 0;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Scoreboard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+}
+
+.timer {
+    font-family: Scoreboard, sans-serif;
+    font-size: 48px;
+    color: #F94F6D;
+    margin-bottom: 20px;
+    background: #080001;
+    padding: 10px 30px;
+    border: 2px solid #F94F6D;
+    text-align: center;
+}
+
+.btn-timer {
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin-top: 20px;
+    background: transparent;
+    flex-shrink: 0;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Scoreboard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+}
+
+.leading {
+    box-shadow: 0 0 20px 5px #F94F6D;
+    border: 3px solid #F94F6D;
+    background-color: #2d325a;
+}

@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="team">
+        <h3>HOME</h3>
+        <div class="score" id="home-score">0</div>
+        <button class="btn" id="home-increment-1" onclick="addOneToHome()">
+          + 1
+        </button>
+        <button class="btn" id="home-increment-2" onclick="addTwoToHome()">
+          + 2
+        </button>
+        <button class="btn" id="home-increment-3" onclick="addThreeToHome()">
+          + 3
+        </button>
+      </div>
+      <div class="center-controls">
+        <div class="timer" id="timer-display">12:00</div>
+        <button class="btn-new-game" id="new=game-btn" onclick="resetGame()">
+          New Game
+        </button>
+        <button class="btn-timer" id="start-timer-btn" onclick="startTimer()">
+          Start
+        </button>
+        <button class="btn-timer" id="pause-timer-btn" onclick="pauseTimer()">
+          Pause
+        </button>
+      </div>
+      <div class="team">
+        <h3>GUEST</h3>
+        <div class="score" id="guest-score">0</div>
+        <button class="btn" id="guest-increment-1" onclick="addOneToGuest()">
+          + 1
+        </button>
+        <button class="btn" id="guest-increment-2" onclick="addTwoToGuest()">
+          + 2
+        </button>
+        <button class="btn" id="guest-increment-3" onclick="addThreeToGuest()">
+          + 3
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
